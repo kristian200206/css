@@ -1,0 +1,80 @@
+
+*{
+	font-family: Gotham;
+	font-weight: 10px;
+	font-size: 25px;
+	text-decoration: none;
+
+    }
+
+
+
+
+body{
+	padding: 20px ;
+	
+}
+
+  
+
+
+.grid {
+
+	background: pink;
+	display: grid;
+	grid-template-areas: 
+
+	"header header header"
+    "  aside main main "
+    " aside main main "
+    "footer footer footer"
+
+  
+
+    
+
+
+
+}
+
+
+.header{
+	margin: 8px;
+	border: 5px solid black;
+	height: 3cm;
+	background: red;
+	grid-area: header
+
+
+
+
+}
+
+.main{
+	margin: 8px;
+		border: 5px solid black;
+	height: 20cm;
+background: blue;
+grid-area: main
+
+}
+
+
+
+.aside{
+	margin: 8px;
+		border: 5px solid black;
+	height: 20cm;
+background: yellow;
+grid-area: aside
+
+  }
+
+.footer{
+	margin: 8px;
+		border: 5px solid black;
+	height: 3cm;
+background: #007264;
+grid-area: footer
+
+}
